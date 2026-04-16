@@ -19,3 +19,17 @@ If that fails, check your sound card by the following way.
 
 - `cat /proc/asound/card3/stream0` and check if the card supports `Format: DSD_U32_BE`
 
+## Prebuilt Binary
+
+[Releases](https://github.com/djytw/alsa-dsd-native/releases)
+
+## Compile
+
+```
+apt install clang libasound2-dev
+```
+
+```
+make clean
+make
+```
